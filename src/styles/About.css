@@ -1,0 +1,64 @@
+.about {
+    border-top: 5px solid var(--blanco);
+    background-color: var(--gris);
+}
+
+.title-about {
+    font-family: var(--font-Clash);
+    color: var(--blanco);
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.subtitle-about {
+    font-family: var(--font-Chillax);
+    color: var(--blanco);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.card.card-about {
+    background-color: var(--blanco);
+}
+
+.img-about {
+    object-fit: cover;
+    width: auto;
+    height: 200px;
+    filter: grayscale(1);
+    transition: all 0.5s ease-in-out;
+}
+
+.img-about:hover {
+    filter: grayscale(0);
+    transform: scale(1.05);
+}
+
+.name-card {
+    font-family: var(--font-Clash);
+    color: var(--azul);
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+}
+
+.text-card {
+    font-family: var(--font-Clash);
+    color: var(--verde);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.subtext-card {
+    font-family: var(--font-Chillax);
+    color: var(--gris);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .img-about{
+        filter: grayscale(0);
+    }
+}
